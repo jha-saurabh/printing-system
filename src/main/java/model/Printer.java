@@ -1,5 +1,9 @@
+package main.java.model;
+
+import main.java.service.PrinterService;
+
 /**
- * Created by rohan.kushwaha on 26/06/16.
+ * Created by saurabh.jha on 26/06/16.
  */
 public class Printer implements Runnable{
 
@@ -7,7 +11,7 @@ public class Printer implements Runnable{
 
     private PrinterService printingService;
 
-    Printer(PrinterService printingService){
+    public Printer(PrinterService printingService){
         this.printingService = printingService;
     }
 

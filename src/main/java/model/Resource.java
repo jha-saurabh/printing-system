@@ -1,5 +1,7 @@
+package main.java.model;
+
 /**
- * Created by rohan.kushwaha on 26/06/16.
+ * Created by saurabh.jha on 26/06/16.
  */
 public class Resource {
     private int id;
